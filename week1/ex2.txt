@@ -1,0 +1,1000 @@
+   55  sudo apt install htop
+   56  sudo apt install git
+   57  sudo apt install neofetch
+   58  sudo apt install vim
+   59  mv Downloads/tsetup.2.1.5.tar.xz xapp/
+   60  tar -xf xapp/tsetup.2.1.5.tar.xz 
+   61  ls xapp/
+   62  ls
+   63  mv Telegram/ xapp/
+   64  ls
+   65  cd Templates/
+   66  ls
+   67  cd
+   68  rm -r Templates/
+   69  cd Public/
+   70  ls
+   71  cd
+   72  rm -r Public/
+   73  ls
+   74  cd xapp/
+   75  ls
+   76  rm tsetup.2.1.5.tar.xz 
+   77  ls
+   78  cd Telegram/
+   79  ./Telegram 
+   80  cd
+   81  ls
+   82  cd .local/share/applications/
+   83  ls
+   84  vim telegramdesktop.desktop 
+   85  sudo apt install telegram-desktop
+   86  cd
+   87  telegram-desktio
+   88  telegram-desktop
+   89  ls
+   90  telegram-desktop
+   91  sudo apt autoremove
+   92  sudo apt install adb
+   93  adb devices
+   94  python3
+   95  python3
+   96  python3
+   97  apm install atom-terminal
+   98  clang --version
+   99  sudo apt intall clang
+  100  sudo apt-get intall clang
+  101  apt-get install clang
+  102  sudo apt-get install clang
+  103  clang
+  104  clang --version
+  105  wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
+  106  sudo wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
+  107  sudo apt update
+  108  sudo apt upgrade
+  109  sudo wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
+  110  apt install anydesk
+  111  sudo apt install anydesk
+  112  echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-stable.list
+  113  cd Downloads/
+  114  ls
+  115  cd
+  116  cd Downloads/
+  117  ls
+  118  cd
+  119  cd Downloads/
+  120  s
+  121  sudo dpkg -i
+  122  sudo dpkg -i anydesk_5.5.6-1_amd64.deb 
+  123  sudo apt update
+  124  sudo apt-get install -f
+  125  cd
+  126  cd Workspace/
+  127  git add *
+  128  git commit -m "initial relearse"
+  129  git config --global user.email "you@example.com"
+  130  git config --global user.email "ehsan2754@github.com"
+  131  git config --global user.name "Ehsan Shaghaei"
+  132  git commit -m "initial relearse"
+  133  git push
+  134  git remote add origin https://github.com/Ehsan2754/Workspace2020.git
+  135  git push -u origin master
+  136  git lfs install
+  137  curl -o https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz
+  138  curl -o "https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz"
+  139  curl -#  -o "https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz"
+  140  curl -#  -o https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz
+  141  curl -#  -o git-lfs-linux-amd64-v2.11.0.tar.gz  https://github.com/git-lfs/git-lfs/releases/download/v2.11.0/git-lfs-linux-amd64-v2.11.0.tar.gz
+  142  ls
+  143  git lfs install
+  144  tar -xf git-lfs-linux-amd64-v2.11.0.tar.gz 
+  145  tar -xvf git-lfs-linux-amd64-v2.11.0.tar.gz 
+  146  tar -zxvf git-lfs-linux-amd64-v2.11.0.tar.gz 
+  147  htop
+  148  neofetch 
+  149  ls
+  150  sls
+  151  sl
+  152  slslslssls
+  153  s
+  154  slslss
+  155  sls
+  156  liberoffice
+  157  sudo apt install liberoffice
+  158  exit
+  159  cd ../
+  160  git push
+  161  git status
+  162  git add .
+  163  git commit -m "initial commit"
+  164  git push
+  165  git push --set-upstream origin master
+  166  sudo snap install odio
+  167  neofetch 
+  168  exit
+  169  cd Downloads/
+  170  mkdir UTUBE
+  171  cd UTUBE/
+  172  ls
+  173  sudo apt install youtube-dl
+  174  youtube-dl -cit "https://youtu.be/lBDN8yWyNYU"
+  175  youtube-dl 
+  176  youtube-dl --help
+  177  cd Downloads/UTUBE/
+  178  glxinfo | more
+  179  lspci -v
+  180  clear
+  181  LC_ALL=C lspci -v | grep -EA10 "3D|VGA" | grep 'prefetchable' 
+  182  sudo dpkg --add-architecture i386 
+  183  cd xapp/
+  184  wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
+  185  sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
+  186  sudo apt update
+  187  sudo apt upgrade
+  188  sudo apt install --install-recommends winehq-devel
+  189  wine
+  190  wine hq
+  191  wine
+  192  mv Downloads/Memu-Installer.exe xapp/
+  193  wine xapp/Memu-Installer.exe 
+  194  wine
+  195  ,.wine
+  196  ./wine
+  197  .wine
+  198  sudo apt update
+  199  sudo apt upgrade 
+  200  neofetch 
+  201  restart
+  202  rstart
+  203  reboot
+  204  sudo apt install -y openvpn dialog python3-pip python3-setuptools
+  205  sudo pip3 install protonvpn-cli
+  206  sudo protonvpn init
+  207  protonvpn connect, c
+  208  protonvpn connect
+  209  sudo protonvpn connect
+  210  npm install libsecret
+  211  sudo npm install -g libsecret
+  212  sudo apt-get update -y
+  213  sudo apt-get install -y libsecret-1-0
+  214  sudo apt upgrade
+  215  sudo apt-get install libsecret-1-dev
+  216  sudo apt update
+  217  pip3 install botbuilder-core
+  218  pip install asyncio
+  219  pip3 install asyncio
+  220  pip3 install aiohttp
+  221  pip3 install cookiecutter
+  222  cookiecutter --help
+  223  pip3 install cookiecutter
+  224  python -m pip install --upgrade pip setuptools wheel
+  225  python3 -m pip install --upgrade pip setuptools wheel
+  226  python3 -m pip3 install --upgrade pip3 setuptools wheel
+  227  python3 -m pip3 install --upgrade pip setuptools wheel
+  228  easy_install cookiecutter
+  229  sudo apt-get install cookiecutter
+  230  pipsi install cookiecutter
+  231  sudo apt install pipsi
+  232  pipsi install cookiecutter
+  233  cookiecutter --version
+  234  cookiecutter --help
+  235  sudo snap install cookiecutter --edge
+  236  cookiecutter --help
+  237  ls
+  238  cd Workspace/OTRS/
+  239  ls
+  240  rm *
+  241  ls
+  242  vim readme.md
+  243  ls
+  244  cookiecutter https://github.com/microsoft/botbuilder-python/releases/download/Templates/echo.zip
+  245  ls
+  246  cd pigo/
+  247  pip3 install -r requirements.txt 
+  248  python3 app.py 
+  249  az login
+  250  sudo apt install azure-cli
+  251  az login
+  252  neofetch 
+  253  sudo apt update
+  254  sudo apt install gddrescue
+  255  sudo fdisk -l
+  256  ddrescue Downloads/manjaro-architect-20.0.3-200607-linux56.iso  /dev/sd1 --force -D
+  257  sudo ddrescue Downloads/manjaro-architect-20.0.3-200607-linux56.iso  /dev/sd1 --force -D
+  258  cd Downloads/
+  259  ls
+  260  la
+  261  sudo add-apt-repository ppa:gezakovacs/ppa
+  262  sudo apt-get update
+  263  sudo apt update
+  264  sudo apt-get install unetbootin
+  265  sudo apt update && upgrade
+  266  sudo apt upgrade
+  267  cd Knapsack/
+  268  ls
+  269  /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.5.86806/pythonFiles/pyvsc-run-isolated.py pip install -U pylint --user
+  270  ls
+  271  /usr/bin/python3 /home/ahuratus/Workspace/Knapsack/knapsack.py
+  272  cd Knapsack/
+  273  ls
+  274  /usr/bin/python3 /home/ahuratus/Workspace/Knapsack/knapsack.py
+  275  cd Knapsack//usr/bin/python3 /home/ahuratus/Workspace/Knapsack/knapsack.py
+  276  /usr/bin/python3 /home/ahuratus/Workspace/Knapsack/knapsack.py
+  277  /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.5.86806/pythonFiles/pyvsc-run-isolated.py pip install -U autopep8 --user
+  278  /usr/bin/python3 /home/ahuratus/Workspace/Knapsack/knapsack.py
+  279  clear
+  280  gcc -v
+  281  sudo apt-get update
+  282  sudo apt-get install build-essential gdb
+  283  /usr/bin/python3 /home/ahuratus/Workspace/Knapsack/knapsack.py
+  284  cd Workspace/Knapsack/
+  285  ls
+  286  python3 knapsack.py 
+  287  python3
+  288  python3 knapsack.py 
+  289  ~~~ cd /home/ahuratus/Workspace ; env /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.5.86806/pythonFiles/lib/python/debugpy/no_wheels/debugpy/launcher 43373 -- /home/ahuratus/Workspace/Knapsack/knapsack.py 
+  290  ~~~ cd /home/ahuratus/Workspace ; env /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.5.86806/pythonFiles/lib/python/debugpy/no_wheels/debugpy/launcher 43373 -- /home/ahuratus/Workspace/Knapsack/knapsack.py  cd /home/ahuratus/Workspace ; env /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.5.86806/pythonFiles/lib/python/debugpy/no_wheels/debugpy/launcher 46735 -- /home/ahuratus/Workspace/Knapsack/knapsack.py 
+  291  cd /home/ahuratus/Workspace ; env /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.5.86806/pythonFiles/lib/python/debugpy/no_wheels/debugpy/launcher 39509 -- /home/ahuratus/Workspace/Knapsack/knapsack.py 
+  292  python3
+  293  pytho
+  294  python3
+  295  python3
+  296  cd Workspace/OTRS/
+  297  ls
+  298  rm -r pigo/
+  299  ls
+  300  git clone https://github.com/danilXX2000/QnA-bot.git
+  301  ls
+  302  cd QnA-bot/
+  303  ls
+  304  python app.py 
+  305  python3 app.py 
+  306  pip install botbuilder-core
+  307  pip3 install botbuilder-core
+  308  pip3 install asyncio
+  309  pip3 install aiohttp
+  310  pip install cookiecutter
+  311  cookiecutter
+  312  pip install -r requirements.txt
+  313  pip3 install -r requirements.txt
+  314  python3 app.py 
+  315  mv ../DB ./
+  316  ls
+  317  git checkout 
+  318  git branch
+  319  git pull
+  320  git branch
+  321  git switch DB
+  322  git switch -c DB
+  323  git checkout 
+  324  ls
+  325  git add *
+  326  git commit -m  "initial DB file )"
+  327  git push origin 
+  328  git push --set-upstream origin DB
+  329  sudo mysql_secure_installation
+  330  systemctl status mysql.service
+  331  sudo systemctl start mysql
+  332  sudo mysqladmin -p -u root version
+  333  sudo apt update
+  334  sudo apt install mysql-server
+  335  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  336  if __name__ == "__main__": exit()
+  337  ls
+  338  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  339  ls
+  340  cd DB
+  341  ls
+  342  pip3 install mysql-connector-python
+  343  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  344  mysql
+  345  sudo mysql
+  346  ipconf
+  347  ipconfig
+  348  ip addr show
+  349  cd Downloads/
+  350  curl -o https://github.com/progit/progit2/releases/download/2.1.227/progit.pdf
+  351  curl  https://github.com/progit/progit2/releases/download/2.1.227/progit.pdf
+  352  ls
+  353  curl https://github.com/progit/progit2/releases/download/2.1.227/progit.pdf --output gitbook.pdf
+  354  ls
+  355  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  356  sudo mysql -u root # I had to use "sudo" since is new installation
+  357  service mysql restart
+  358  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  359  clear
+  360  mysql
+  361  sudo mysql
+  362  sudo  mysql -u root –p
+  363  sudo mysql
+  364  clear
+  365  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  366  clear
+  367  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  368  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/constant.py
+  369  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  370  cd /home/ahuratus/Workspace/OTRS ; env /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.5.86806/pythonFiles/lib/python/debugpy/no_wheels/debugpy/launcher 41515 -- /home/ahuratus/Workspace/OTRS/DB/db_config.py 
+  371  cd DB/
+  372  python3 db_config.py 
+  373  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  374  cd DB/
+  375  python3 db_config.py 
+  376  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/constant.py
+  377  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  378  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/constant.py
+  379  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  380  cd
+  381  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  382  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/constant.py
+  383  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  384  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/constant.py
+  385  cd Workspace/OTRS/
+  386  ls
+  387  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/constant.py
+  388  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  389  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/constant.py
+  390  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  391  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/constant.py
+  392  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/DB/db_config.py
+  393  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/QnA-bot/DB/db_config.py
+  394  sudo mysql
+  395  cd Workspace/OTRS/
+  396  ls
+  397  git checkout 
+  398  cd QnA-bot/
+  399  git check
+  400  git checkoUT
+  401  git checkout
+  402  git pull
+  403  git pull DB
+  404  git add *
+  405  git commit -m "DB release"
+  406  git push -u origin
+  407  git push -u DB
+  408  git push -u QnA-bot
+  409  git push --set-upstream origin DB
+  410  git checkout
+  411  git switch design 
+  412  git add *
+  413  git commit -m "DB release"
+  414  git push
+  415  git push -u origin/design
+  416  git push -u origin
+  417  git push -u origin master
+  418  git push -u origin design
+  419  git remote set-url origin https://github.com/danilXX2000/QnA-bot.git
+  420  git push -u origin design
+  421  git add *
+  422  git commit -m "DB release"
+  423  git push -u origin 
+  424  git checkout
+  425  git pusj
+  426  git push
+  427  rm -r ../DB
+  428  ls
+  429  mv DB ../
+  430  ls
+  431  ls ../
+  432  cd ../
+  433  rm -r QnA-bot/
+  434  rm -r QnA-bot
+  435  git https://github.com/Ehsan2754/QnA-bot.git
+  436  ls
+  437  ls clone https://github.com/Ehsan2754/QnA-bot
+  438  git clone https://github.com/Ehsan2754/QnA-bot.git
+  439  mv DB QnA-bot/
+  440  cd QnA-bot/
+  441  ls
+  442  git commit -m "DB initial configure"
+  443  git add*
+  444  git add *
+  445  git commit -m "DB initial configure"
+  446  git push -u
+  447  /usr/bin/python3 /home/ahuratus/Workspace/OTRS/QnA-bot/DB/db_config.py
+  448  cd ../
+  449  cd ES2H\ Storage/
+  450  ls
+  451  ls -l
+  452  ls
+  453  cd
+  454  cd /media/ahuratus/ES2H Storage/
+  455  cd /media/ahuratus/
+  456  cd ES2H Storage/
+  457  cd ES2H\ Storage/
+  458  ls
+  459  l
+  460  s
+  461  l
+  462  s
+  463  ls
+  464  cd Workspace/
+  465  mkdir F407G
+  466  cd F407G/
+  467  ls
+  468  curl -C -o https://www.st.com/resource/en/data_brief/stm32f4discovery.pdf 
+  469  curl -O https://www.st.com/resource/en/data_brief/stm32f4discovery.pdf
+  470  java
+  471  jdk
+  472  java
+  473  ls
+  474  jdk
+  475  java -v
+  476  exit
+  477  java
+  478  javac
+  479  cd Downloads/
+  480  ls
+  481  sudo dpkg -i jdk-14.0.1_linux-x64_bin.deb 
+  482  sudo apt-get install -f
+  483  sudo apt update
+  484  sudo apt upgrade 
+  485  java -version
+  486  javac -version
+  487  java -jar STLinkUpgrade.jar 
+  488  sudo dpkg -i st-stlink-udev-rules-1.0.2-2-linux-all.deb 
+  489  sudo dpkg -i st-stlink-udev-rules-1.0.2-2-linux-all.deb 
+  490  sudo sh st-stlink-udev-rules-1.0.2-2-linux-noarch.sh 
+  491  java
+  492  sudo apt install openjdk-14-jre-headless
+  493  java
+  494  java -version 
+  495  javac -version
+  496  javac 
+  497  sudo apt-get install libusb-1.0
+  498  cd Workspace/F407G/
+  499  curl -O https://www.st.com/resource/en/user_manual/dm00039084-discovery-kit-with-stm32f407vg-mcu-stmicroelectronics.pdf
+  500  cd Doc/
+  501  curl -O https://www.st.com/resource/en/user_manual/dm00285842-getting-started-with-stm32-mcu-discovery-kits-software-development-tools-stmicroelectronics.pdf
+  502  curl -O https://www.st.com/resource/en/user_manual/dm00037368-getting-started-with-software-and-firmware-environments-for-the-stm32f4discovery-kit-stmicroelectronics.pdf
+  503  npm install -g msbot
+  504  sudo npm install -g msbot
+  505  cd xapp/
+  506  unzip ../Downloads/ngrok-stable-linux-amd64.zip ./
+  507  mv ../Downloads/ngrok-stable-linux-amd64.zip ./
+  508  unzip ngrok-stable-linux-amd64.zip 
+  509  ls
+  510  ./ngrok authtoken 1dQueKHOQWNNi5epQPMNhGfivjr_bhSPj14GGVekGETLre7j
+  511  sudo apt-get update
+  512  sudo apt upgrade 
+  513  sudo apt update
+  514  sudo apt-get install ca-certificates curl apt-transport-https lsb-release gnupg
+  515  curl -sL https://packages.microsoft.com/keys/microsoft.asc |     gpg --dearmor |     sudo tee /etc/apt/trusted.gpg.d/microsoft.asc.gpg > /dev/null
+  516  AZ_REPO=$(lsb_release -cs)
+  517  echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main" |     sudo tee /etc/apt/sources.list.d/azure-cli.list
+  518  sudo apt-get update
+  519  sudo apt-get install azure-cli 
+  520  az login 
+  521  ls
+  522  rm ngrok
+  523  unzip ngrok-stable-linux-amd64.zip 
+  524  rm ngrok-stable-linux-amd64.zip 
+  525  mkdir ngrok
+  526  rm Memu-Installer.exe 
+  527  ./ngrok authtoken 1dQueKHOQWNNi5epQPMNhGfivjr_bhSPj14GGVekGETLre7j
+  528  ls
+  529  mv ../Downloads/ngrok-stable-linux-amd64.zip ./
+  530  mkdir ngrok
+  531  unzip ngrok-stable-linux-amd64.zip 
+  532  ls
+  533  cd
+  534  cd Workspace/
+  535  ls
+  536  cd OTRS/
+  537  ls
+  538  git clone https://github.com/microsoft/BotBuilder-Samples.git
+  539  code *
+  540  cd Workspace/OTRS/
+  541  ls
+  542  cd BotBuilder-Samples/
+  543  ls
+  544  code *
+  545  /usr/bin/python3 /home/ahuratus/Workspace/Knapsack/knapsack.py
+  546  cd ../../
+  547  cd ../
+  548  cd Knapsack/
+  549  ls
+  550  clear
+  551  /usr/bin/python3 /home/ahuratus/Workspace/Knapsack/knapsack.py
+  552  python3
+  553  /usr/bin/python3 /home/ahuratus/Workspace/Knapsack/knapsack.py
+  554  cd ../../
+  555  cd ../Knapsack/
+  556  python3 knapsack.py 
+  557  /usr/bin/python3 /home/ahuratus/Workspace/Knapsack/knapsack.py
+  558  python3
+  559  /usr/bin/python3 /home/ahuratus/Workspace/Knapsack/knapsack.py
+  560  python3
+  561  echo shit
+  562  ls
+  563  sls
+  564  echo 'shit' >i.txt
+  565  ls
+  566  vim i.txt
+  567  rm i.txt 
+  568  ls
+  569  clear
+  570  python3
+  571  cd Workspace/Knapsack/
+  572  ls
+  573  code *
+  574  /usr/bin/python3 /home/ahuratus/Workspace/Knapsack/knapsack.py
+  575  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cd /home/ahuratus/Workspace/Knapsack ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.6.89148/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 34791 /home/ahuratus/Workspace/Knapsack/knapsack.py 
+  576  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ cd /home/ahuratus/Workspace/Knapsack ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.6.89148/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 36569 /home/ahuratus/Workspace/Knapsack/knapsack.py 
+  577  ~~~~~~~~~~~~~~~~~~~~~ cd /home/ahuratus/Workspace/Knapsack ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.6.89148/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 39923 /home/ahuratus/Workspace/Knapsack/knapsack.py 
+  578  ~~~~~~~~~~~~~~~~~~~~~~ cd /home/ahuratus/Workspace/Knapsack ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.6.89148/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 39347 /home/ahuratus/Workspace/Knapsack/knapsack.py 
+  579  ~~~~ cd /home/ahuratus/Workspace/Knapsack ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.6.89148/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 35873 /home/ahuratus/Workspace/Knapsack/knapsack.py 
+  580  ~~~~ cd /home/ahuratus/Workspace/Knapsack ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.6.89148/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 35873 /home/ahuratus/Workspace/Knapsack/knapsack.py  cd /home/ahuratus/Workspace/Knapsack ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.6.89148/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 35283 /home/ahuratus/Workspace/Knapsack/knapsack.py 
+  581  cd
+  582  /usr/bin/python3 /home/ahuratus/Workspace/Knapsack/knapsack.py
+  583  C cd /home/ahuratus/Workspace/Knapsack ; env /usr/bin/python3 /home/ahuratus/.vscode/extensions/ms-python.python-2020.6.89148/pythonFiles/lib/python/debugpy/launcher 43929 -- /home/ahuratus/Workspace/Knapsack/knapsack.py 
+  584  cd Workspace/
+  585  ls
+  586  cd Knapsack/
+  587  ;s
+  588  code /
+  589  code *
+  590  ls
+  591  sudo 
+  592  This application provides display an
+  593  sudo install scrcpy
+  594  sudo apt install scrcpy
+  595  scrcpy 
+  596  sudo dpkg -i Downloads/teamviewer_15.7.6_amd64.deb 
+  597  cd Downloads/
+  598  sudo apt  install ./teamviewer_15.7.6_amd64.deb 
+  599  rm teamviewer_15.7.6_amd64.deb 
+  600  cd ../xapp/
+  601  wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+  602  sudo apt install ./teamviewer_amd64.deb
+  603  sudo apt --fix-broken installA
+  604  sudo apt update
+  605  sudo apt uprade
+  606  sudo apt upgrade
+  607  sudo apt autoremove 
+  608  sudo apt upgrade
+  609  sudo apt update
+  610  sudo apt install ./teamviewer_amd64.deb
+  611  sudo add-apt-repository ppa:diodon-team/daily
+  612  sudo apt-get update
+  613  sudo apt-get install diodon
+  614  copyq
+  615  sudo apt autoremove 
+  616  sudo rm /etc/yum.conf 
+  617  nano /etc/yum.conf
+  618  sudo vim /etc/yum.conf
+  619  ls /etc/
+  620  cat /etc/yum.conf 
+  621  sudo vim /etc/yum.conf
+  622  cat /etc/yum.conf 
+  623  code *
+  624  chrome
+  625  google-chrome
+  626  wget http://download.kerio.com/dwn/kerio-control-vpnclient-linux-amd64.deb
+  627  apt-get install debconf openssl
+  628  sudo apt-get install debconf openssl
+  629  sudo dpkg -i kerio-control-vpnclient-linux-amd64.deb
+  630  sudo apt-get install network-manager-pptp
+  631  sudo /etc/init.d/dbus restart
+  632  sudo -s
+  633  cd /etc/ppp/peers/
+  634  sudo vim IR-VPN 
+  635  sudo chmod 600 /etc/ppp/peers/IR-VPN 
+  636  pon IR-VPN 
+  637  mv /etc/ppp/peers/IR-VPN /etc/ppp/peers/IR-VPN.vpn
+  638  sudo mv /etc/ppp/peers/IR-VPN /etc/ppp/peers/IR-VPN.vpn
+  639  ls
+  640  pon IR-VPN.vpn 
+  641  sudo pon IR-VPN.vpn 
+  642  sudo poff IR-VPN.vpn 
+  643  sudo pon IR-VPN.vpn 
+  644  sudo poff IR-VPN.vpn 
+  645  sudo pon IR-VPN.vpn 
+  646  sudo poff IR-VPN.vpn 
+  647  sudo add-apt-repository ppa:1047481448-2/sergkolo
+  648  sudo apt update
+  649  sudo apt upgrade 
+  650  python3
+  651  pip3 install tkinter
+  652  sudo pon IR-VPN.vpn 
+  653  sudo poff IR-VPN.vpn 
+  654  sudo pon IR-VPN.vpn 
+  655  sudo poff IR-VPN.vpn 
+  656  sudo apt update
+  657  sudo apt upgrade
+  658  sudo dpkg --configure -a
+  659  ls
+  660  cd Coursera/
+  661  ls
+  662  touch mar_tst.html
+  663  pon IR-VPN.vpn 
+  664  sudo pon IR-VPN.vpn 
+  665  sudo poff IR-VPN.vpn 
+  666  cd xapp/
+  667  ls
+  668  cd ../Downloads/
+  669  ls
+  670  cd
+  671  dpkg -l | grep kerio-control-vpnclient-linux-amd64
+  672  dpkg -P kerio-control-vpnclient-linux-amd64
+  673  sudo dpkg -P kerio-control-vpnclient-linux-amd64
+  674  sudo dpkg -l | grep kerio-control-vpnclient-linux-amd64
+  675  dpkg -i kerio-control-vpnclient-linux-amd64.deb
+  676  sudo dpkg -i kerio-control-vpnclient-linux-amd64.deb
+  677  ls
+  678  sudo apt upgrade
+  679  sudo apt autoremove 
+  680  sudo apt upgrade
+  681  sudo apt autoremove 
+  682  sudo apt update
+  683  sudo snap update
+  684  sudo snap refresh 
+  685  sudo apt dist-upgrade
+  686  snap refresh --list
+  687  openssl 
+  688  debconf
+  689  ls
+  690  clear
+  691  sudo pon IR-VPN.vpn 
+  692  sudo poff IR-VPN.vpn 
+  693  sudo pon IR-VPN.vpn 
+  694  sudo poff IR-VPN.vpn 
+  695  sudo pon IR-VPN.vpn 
+  696  sudo poff IR-VPN.vpn 
+  697  sudo pon IR-VPN.vpn 
+  698  sudo poff IR-VPN.vpn 
+  699  neofetch 
+  700  sudo pon IR-VPN.vpn 
+  701  sudo poff IR-VPN.vpn 
+  702  sudo pon IR-VPN.vpn 
+  703  sudo poff IR-VPN.vpn 
+  704  sudo pon IR-VPN.vpn 
+  705  sudo poff IR-VPN.vpn 
+  706  sudo pon IR-VPN.vpn 
+  707  sudo poff IR-VPN.vpn 
+  708  sudo pon IR-VPN.vpn 
+  709  sudo poff IR-VPN.vpn 
+  710  sudo pon IR-VPN.vpn 
+  711  sudo poff IR-VPN.vpn 
+  712  sudo pon IR-VPN.vpn 
+  713  sudo poff IR-VPN.vpn 
+  714  sudo pon IR-VPN.vpn 
+  715  sudo poff IR-VPN.vpn 
+  716  sudo pon IR-VPN.vpn 
+  717  sudo poff IR-VPN.vpn 
+  718  sudo pon IR-VPN.vpn 
+  719  sudo poff IR-VPN.vpn 
+  720  sudo pon IR-VPN.vpn 
+  721  sudo poff IR-VPN.vpn 
+  722  sudo pon IR-VPN.vpn 
+  723  sudo poff IR-VPN.vpn 
+  724  sudo apt-get install streamtuner2
+  725  sudo apt-get -- purge remove streamtuner2 
+  726  LS
+  727  ls
+  728  sudo apt-get -- purge remove streamtuner2 
+  729  sudo apt-get  remove streamtuner2 
+  730  sudo apt-get autoremove 
+  731  sudo apt update 
+  732  apt list --upgradable 
+  733  sudo apt upgrade
+  734  sudo add-apt-repository ppa:haecker-felix/gradio-daily
+  735  udo apt-get install radiotray
+  736  sudo apt-get install radiotray
+  737  sudo apt  install radiotray
+  738  python3
+  739  sudo pon IR-VPN.vpn 
+  740  sudo poff IR-VPN.vpn 
+  741  sudo pon IR-VPN.vpn 
+  742  sudo poff IR-VPN.vpn 
+  743  heavy trap
+  744  ext install GrapeCity.gc-excelviewer
+  745  sudo ext install GrapeCity.gc-excelviewer
+  746  /usr/bin/python3 /home/ahuratus/Workspace/xls-transformer/xls.py
+  747  sudo pon IR-VPN.vpn 
+  748  sudo poff IR-VPN.vpn 
+  749  sudo apt-get install cheese
+  750  python3
+  751  gcc --help
+  752  gcc --help
+  753  gcc -v
+  754  sudo apt update 
+  755  sudo apt upgrade
+  756  sudo apt-get install build-essential gdb
+  757  mkdir cpp_tst
+  758  cd cpp_tst/
+  759  code *
+  760  code .
+  761  ls
+  762  cd /.vscode
+  763  mkdir .vscode
+  764  ls
+  765  touch tasks.json
+  766  touch launch.json
+  767  touch c_cpp_properties.json
+  768  mv * ./.vscode/
+  769  ;s
+  770  ls
+  771  cd ./.vscode/
+  772  ;s
+  773  ls
+  774  cd
+  775  exit
+  776  touch hellowprld.cpp
+  777  ls
+  778  ./hellowprld 
+  779  cd ../
+  780  ls
+  781  l
+  782  sl
+  783  rm -r cpp_tst
+  784  ls
+  785  cd ./.vscode/
+  786  ls
+  787  rm launch.json 
+  788  ls
+  789  cd ../
+  790  code .
+  791  ls
+  792  ls ./EquationSolver/
+  793  ./EquationSolver/equationSolver.Z 
+  794  cd ./EquationSolver/
+  795  ./equationSolver.Z 
+  796  ls
+  797  ./equationSolver.Z 
+  798  ./EquationSolver/equationSolver.Z 
+  799  ~ env /bin/sh /tmp/Microsoft-MIEngine-Cmd-6oi2mcci.pmg 
+  800  ./EquationSolver/equationSolver.Z 
+  801  ./EquationSolver/equationSolver.z
+  802  sudo pon IR-VPN.vpn 
+  803  poff IR-VPN.vpn 
+  804  sudo poff IR-VPN.vpn 
+  805  sudo pon IR-VPN.vpn 
+  806  sudo poff IR-VPN.vpn 
+  807  sudo pon IR-VPN.vpn 
+  808  sudo poff IR-VPN.vpn 
+  809  sudo pon IR-VPN.vpn 
+  810  sudo poff IR-VPN.vpn 
+  811  sudo pon IR-VPN.vpn 
+  812  sudo poff IR-VPN.vpn 
+  813  sudo pon IR-VPN.vpn 
+  814  sudo poff IR-VPN.vpn 
+  815  sudo pon IR-VPN.vpn 
+  816  sudo poff IR-VPN.vpn 
+  817  sudo pon IR-VPN.vpn 
+  818  sudo poff IR-VPN.vpn 
+  819  sudo pon IR-VPN.vpn 
+  820  sudo poff IR-VPN.vpn 
+  821  sudo pon IR-VPN.vpn 
+  822  sudo poff IR-VPN.vpn 
+  823  sudo pon IR-VPN.vpn 
+  824  sudo poff IR-VPN.vpn 
+  825  sudo pon IR-VPN.vpn 
+  826  sudo poff IR-VPN.vpn 
+  827  sudo pon IR-VPN.vpn 
+  828  sudo poff IR-VPN.vpn 
+  829  sudo pon IR-VPN.vpn 
+  830  sudo poff IR-VPN.vpn 
+  831  sudo apt-get install libmysqlclient-dev
+  832  mkdir hbd
+  833  touch hbd.html
+  834  sudo apt upgrade 
+  835  ./OTRS/SQL.z 
+  836  ./OTRS/SQL.z 
+  837  sudo apt-get install libmysqlclient--dev
+  838  sudo apt-get install libmysqlclient-dev
+  839  sudo apt update
+  840  mysql_config --cflags
+  841  apt-get install libmariadb-dev
+  842  sudo apt-get install libmariadb-dev
+  843  gcc `mysql_config --cflags --libs`  -o mysql_client mysql_client.c
+  844  gcc -I/usr/include/mysql -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -ldl -lssl -lcrypto -o mysql_client mysql_client.c
+  845  sudo apt install mysqlserver
+  846  sudo apt-get install mysql-server
+  847  mysql -u root -p
+  848  which gcc
+  849  which python
+  850  which python3
+  851  which java
+  852  which google-chrome
+  853  gcc -I/usr/include/mysql -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -ldl -lssl -lcrypto -o mysql_client mysql_client.c
+  854  gcc -i
+  855  gcc -v
+  856  g++ -version
+  857  g++ --version
+  858  g++ -std=c++0x
+  859  g++ -std=c++
+  860  g++ -std=c++0
+  861  g++ --version
+  862  gcc --version
+  863  info gcc
+  864  gcc --version
+  865  gcc -std
+  866  sudo apt update
+  867  sudo apt upgrade 
+  868  sudo apt install build-essential
+  869  sudo apt-get install manpages-dev
+  870  gcc --version
+  871  ./OTRS/SQL 
+  872  ./OTRS/SQL.z 
+  873  gcc -I/usr/include/mysql -L/usr/lib64/mysql -lmysqlclient -lpthread -lz -lm -ldl -lssl -lcrypto -o mysql_client ./OTRS/SQL.c
+  874  gcc `mysql_config --cflags --libs`  -o ./OTRS/SQL.z ./OTRS/SQL.c
+  875  ./OTRS/SQL
+  876  ./OTRS/SQL.z 
+  877  sudo pon IR-VPN.vpn 
+  878  clock
+  879  sudo poff IR-VPN.vpn 
+  880  sudo dpkg -i Downloads/upwork_5.4.2.8_amd64.deb 
+  881  sudo apt-get install -f
+  882  ls
+  883  cd Workspace/
+  884  ls
+  885  mkdir trader
+  886  cd trader/
+  887  curl -o out.json wss://api.hitbtc.com/api/2/ws/public
+  888  curl -o out.json https://api.hitbtc.com/api/2
+  889  vim out.json 
+  890  mv out.json out.html
+  891  curl -o out.json http://www.investopedia.com/terms/c/currencypair.asp
+  892  vim out.json 
+  893  curl -X GET "https://api.hitbtc.com/api/2/public/symbol" -H
+  894  curl -X GET "https://api.hitbtc.com/api/2/public/symbol" 
+  895  curl -o out.json https://api.hitbtc.com/api/2/public/symbol
+  896  vim out.json 
+  897  cd
+  898  sudo pon IR-VPN.vpn 
+  899  sudo poبب IR-VPN.vpn 
+  900  sudo poff IR-VPN.vpn 
+  901  sudo pon IR-VPN.vpn 
+  902  sudo poff IR-VPN.vpn 
+  903  sudo pon IR-VPN.vpn 
+  904  sudo poff IR-VPN.vpn 
+  905  sudo pon IR-VPN.vpn 
+  906  sudo poff 
+  907  sudo pon IR-VPN.vpn 
+  908  sudo poff 
+  909  sudo pon IR-VPN.vpn 
+  910  sudo poff 
+  911  cd Downloads/
+  912  curl -o "https://ljt.fjrifj.frl/37b77d694328aad2d87daf852b34179d/l1F8yCFT1Dg/csswciawcnnwcon"
+  913  curl -o 2.mp3 "https://ljt.fjrifj.frl/37b77d694328aad2d87daf852b34179d/l1F8yCFT1Dg/csswciawcnnwcon"
+  914  curl -o cheekiBreeky.mp3 "https://rjj.fjrifj.frl/f633b9034ea3d4b51b0e8024a0937f6d/BnTW6fZz-1E/csszciazcnnzcon"
+  915  sudo pon IR-VPN.vpn 
+  916  sudo poff 
+  917  sudo pon IR-VPN.vpn 
+  918  cd Downloads/
+  919  curl -o 1.mp3 http://dl.music-o-movie.ir/music/95/Saw%20-%20Hello%20Zepp_(Music-o-Movie.ir).mp3
+  920  curl -o 1.mp3 "http://dl.music-o-movie.ir/music/95/Saw%20-%20Hello%20Zepp_(Music-o-Movie.ir).mp3"
+  921  sudo pon IR-VPN.vpn 
+  922  sudo poff
+  923  sudo pon IR-VPN.vpn 
+  924  sudo poff
+  925  sudo pon IR-VPN.vpn 
+  926  pon IR-VPN.vpn 
+  927  sudo pon IR-VPN.vpn 
+  928  sudo poff
+  929  curl -o Downloads/3.mp3 "https://www.youtube.com/watch?v=vLAughQeclE&list=PLbWhbWUpCqkGuiKtBASysNGYQHoNpaeUf&index=2&t=0s"
+  930  ls
+  931  cd Coursera
+  932  ls
+  933  mv tasks ./HTML_CSS
+  934  ls
+  935  cd HTML_CSS
+  936  ls
+  937  cd tasks
+  938  ls
+  939  code .
+  940  git init
+  941  git add --all 
+  942  git commit -m "first commit"
+  943  git remote add origin https://github.com/Ehsan2754/FullStackTasks.git
+  944  git push -u origin master
+  945  sudo pon IR-VPN.vpn 
+  946  ls
+  947  mkdir css
+  948  touch css/style.css
+  949  git add --a
+  950  git add --all 
+  951  ls
+  952  git push -u 
+  953  git status
+  954  git add *
+  955  git push -u
+  956  git commit -m "folder initializing"
+  957  git add --all 
+  958  got push -u
+  959  git push -u
+  960  git commit -m "v1"
+  961  cd ../
+  962  git status
+  963  git push -u
+  964  git add --all
+  965  git push -u
+  966  git commit -m "v1"
+  967  sudo pon IR-VPN.vpn 
+  968  sudo poff IR-VPN.vpn 
+  969  curl -o IBC2020.mp4 "https://fij.fjrifj.frl/5d65b877aedaa56c778ea603f6b81fa7/K1j7vQHosOs/cssxciaxcnnxcnc"
+  970  curl -o IBC2020.mp4 "https://redirector.googlevideo.com/videoplayback?expire=1596220909&ei=jREkX-uFLJeSgQf1_pnwCw&ip=212.40.116.93&id=o-AClc-QolAg5sccMx9Q-qtG2SkhwKVQooz5BoQa_19B62&itag=22&source=youtube&requiressl=yes&mh=j8&mm=31%2C26&mn=sn-c0q7lnsl%2Csn-5hnednlr&ms=au%2Conr&mv=u&mvi=3&pl=19&vprv=1&mime=video%2Fmp4&ratebypass=yes&dur=285.489&lmt=1596191801776272&mt=1596198828&fvip=3&fexp=23883098&c=WEB&txp=6216222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIgTXv2ui7RHDgk2W9slIHjG8T-UlQaHQETcbcaaO2g0y8CIQDsN6N01UHanryoKMV1FAAHzBDBOkX6C8yq_0Th13-XUg%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl&lsig=AG3C_xAwRQIgejEGoKiwqFL090g7YimGFtjQmt4PJVp3p32LJqobyskCIQDI01-0YZBTwTKluoBqvzEs3sZnFSH4VvqJIE-Wg5yLew%3D%3D&title=InnoBootCamp2020+-+Innopolis+University"
+  971  curl -o IBC2020.mp4 "https://r3---sn-5uaeznyy.googlevideo.com/videoplayback?expire=1596220821&ei=NREkX6n-BsjGzLUPq_yMmAM&ip=209.107.196.130&id=o-AEEO6lheL1OsSGvtK73vGGDu3RGoJOp4otxCqsd984cv&itag=22&source=youtube&requiressl=yes&mh=j8&mm=31%2C26&mn=sn-5uaeznyy%2Csn-vgqs7nlz&ms=au%2Conr&mv=m&mvi=3&pl=24&initcwndbps=1646250&vprv=1&mime=video%2Fmp4&ratebypass=yes&dur=285.489&lmt=1596191801776272&mt=1596199110&fvip=3&fexp=23883098&c=WEB&txp=6216222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIgLvot08LqwvmmXPYFT8f-t7c1N6RVLuiL_vBna4iA030CIQDfNAy0wlZxRCEbFaMUxfMI8Zv8q_e0OIhGm7KzII5pHQ%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhALn4Nb0VxtJTn_gkFdw5H3yGQFPSqGZxUFYPQjsZ-n29AiEAie13jt4t6hQjhhhWT57t6ZLoWdyzU3T7kxW9aJ8vPUY%3D&contentlength=80144379&video_id=K1j7vQHosOs&title=InnoBootCamp2020+-+Innopolis+University"
+  972  sudo pon IR-VPN.vpn 
+  973  sudo poff
+  974  json -o ./Downloads/ml.pdf "http://cs.uef.fi/pages/franti/lami/papers/Extraction%20of%20Address%20Data%20from%20Unstructured%20Text%20using_Free%20Knowledge%20Resources.pdf"
+  975  curl -o ./Downloads/ml.pdf "http://cs.uef.fi/pages/franti/lami/papers/Extraction%20of%20Address%20Data%20from%20Unstructured%20Text%20using_Free%20Knowledge%20Resources.pdf"
+  976  curl "https://www.upwork.com/att/download/openings/1287186760504672256/attachments/1287185568046100480/download"
+  977  zoom
+  978  sudo pon IR-VPN.vpn 
+  979  sudo poff
+  980  python --verstion
+  981  python --version
+  982  python3 --version
+  983  sudo pon IR-VPN.vpn 
+  984  sudo poff
+  985  sudo apt update
+  986  sudo apt upgrade
+  987  sudo pon IR-VPN.vpn 
+  988  sudo poff
+  989  curl -o zawanbeats.mp3 "https://jij.ijjiii.is/8b9baa88d731b438b9fe6cbc477d32d1/2Z_1rp8WGAY/cssvciavcnnvcoe"
+  990  curl -o zawanbeats.mp3 "https://jsl.ijjiii.is/49fca421b8600aea62cda9c12f2bc2fe/2Z_1rp8WGAY/cssvciavcnnvcoe"
+  991  curl -o zawanbeats-KARA.mp3 "https://iil.ijjiii.is/afde05f7cb9ef4e830c888b682660fb0/AhT6xwgiqUo/csszciazcnnzcoe"
+  992  htop
+  993  ./OS/os1.z 
+  994  pwd
+  995  whoami
+  996  cd OS
+  997  ls
+  998  mkdir week1
+  999  ls
+ 1000  cd week1/
+ 1001  ls
+ 1002  ls /usr/bin/
+ 1003  clear
+ 1004  cd /usr/bin
+ 1005  ls
+ 1006  grep -lr gcc *
+ 1007  grep -lr gcc ./
+ 1008  grep -lr gcc 
+ 1009  grep -ls gcc 
+ 1010  grep --ignore-case --files-with-matches "gcc" .
+ 1011  grep --ignore-case --files-with-matches "gcc" ./
+ 1012  cd ../
+ 1013  grep --ignore-case --files-with-matches "gcc" ./bin/
+ 1014  grep --ignore-case --files-with-matches "gcc" ./bin
+ 1015  man grep
+ 1016  cd bin/
+ 1017  ls
+ 1018  l
+ 1019  ls > ~/Workspace/OS/week1/t.txt
+ 1020  ls
+ 1021  cd ~/Workspace/OS/week1/
+ 1022  ls
+ 1023  l
+ 1024  sl
+ 1025  vim t.txt 
+ 1026  grep "gcc" t.txt 
+ 1027  grep --ignore-case "gcc" t.txt 
+ 1028  grep --ignore-case "gcc" t.txt >t1.text
+ 1029  ls
+ 1030  vim t1.text 
+ 1031  sort -r | grep --ignore-case "gcc" t.txt >t1.text
+ 1032  ls /usr/bin 
+ 1033  ls /usr/bin | sort -r |
+ 1034  ls /usr/bin | sort -r 
+ 1035  ls /usr/bin | sort -r | grep --ignore-case "gcc"
+ 1036  ls /usr/bin | sort -r | grep --ignore-case "gcc" > ex1.txt
+ 1037  rm *
+ 1038  ls
+ 1039  ls /usr/bin | sort -r | grep --ignore-case "gcc" > ex1.txt
+ 1040  ls
+ 1041  vim ex1.txt 
+ 1042  cd OS/week1/
+ 1043  ls
+ 1044  clear
+ 1045  nano ex1.txt 
+ 1046  ls /usr/bin | sort -r | grep --ignore-case "gcc" > ex1.txt
+ 1047  rm *
+ 1048  ls /usr/bin | sort -r | grep --ignore-case "gcc" > ex1.txt
+ 1049  history
+ 1050  history > ex2.txt
+ 1051  nano ex2.txt 
+ 1052  rm ex2.txt 
+ 1053  ls
+ 1054  history > ex2.txt
