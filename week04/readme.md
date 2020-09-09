@@ -2,7 +2,8 @@
 
 ## Notes on EX1
 
-Each time the program runs, a parent and a child is created by ```  fork() ``` and in ex2.sh we run program 10 times; hence it makes 10 childs and 10 parents => 20 process.
+Each time the program runs, a parent and a child is created by ```  fork() ``` and in ex2.sh we run program 10 times; hence it makes 10 childs and 10 parents => 20 processes. 
+
 ```
 ****************************************
 DATA APPENDED FROM   AHURATUS TERMINAL
