@@ -25,7 +25,7 @@ int main(){
         printf("Enter process #%d burst time:(UNSIGNED INTEGER)\n",i);
         scanf("%d",&P[i].BT);
     }
-    FIFO_Scheduler(P,N);
+    SJN_Scheduler(P,N);
     int cmplting_time=0;
     for(int i=0;i<N;i++){
         if (P[i].AT-cmplting_time>=0)
@@ -59,4 +59,35 @@ void FIFO_Scheduler(struct Process * p,int n){
             }
         }
     }
+}
+void SJN_Scheduler(struct Process * p,int n){
+    for (int i=1;i<n;i++){
+        for(int j=0;j<n-1;j++){
+            if (p[i].BT<p[j].BT ){
+                Process t=p[i];
+                p[i]=p[j];
+                p[j]=t;
+            }
+        }
+    }
+    for(int i=0;i<n;i++){
+        if (p[i].AT<p[0].AT){
+            Process t=p[0];
+            p[0]=p[i];
+            p[i]=t;
+        }
+    }
+
+    for(int j=1;j<n-1;j++){
+        int t1=p[j-1].AT;
+        int t2=p[j-1].BT+t1;
+        for(int i=j+1;i<n;i++){
+            if (p[i].AT<p[j].AT && t2>p[i].AT &&p[i].BT<p[j].BT){
+                Process t=p[j];
+                p[j]=p[i];
+                p[i]=t;
+            }
+        }
+    }
+
 }
