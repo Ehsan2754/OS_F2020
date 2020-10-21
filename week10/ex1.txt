@@ -1,0 +1,3 @@
+1125899907467494 -rwxrwxrwx 3 ahuratus ahuratus 0 Oct 21 19:13 _ex1_1.txt
+1125899907467494 -rwxrwxrwx 3 ahuratus ahuratus 0 Oct 21 19:13 _ex1_2.txt
+1125899907467494 -rwxrwxrwx 3 ahuratus ahuratus 0 Oct 21 19:13 _ex1.txt
