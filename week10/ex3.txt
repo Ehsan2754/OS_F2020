@@ -1,0 +1,18 @@
+mode of '_ex3.txt' changed from 0777 (rwxrwxrwx) to 0666 (rw-rw-rw-)
+mode of '_ex3.txt' changed from 0666 (rw-rw-rw-) to 0767 (rwxrw-rwx)
+
+– What does 660 mean for ex3.txt? 
+.. [First  Digit --owner] 6 -> 2 (read) + 4(write)
+.. [Second Digit --group] 6 -> 2 (read) + 4(write)
+.. [Third  Digit --other] 0 -> 0 (no permission)
+ 
+– What does 775 mean for ex3.txt? 
+.. [First  Digit --owner] 7 -> 1 (execute) + 2 (read) + 4(write)
+.. [Second Digit --group] 7 -> 1 (execute) + 2 (read) + 4(write)
+.. [Third  Digit --other] 5 -> 1 (execute) + 4 (write)
+
+– What does 777 mean for ex3.txt? 
+.. [First  Digit --owner] 7 -> 1 (execute) + 2 (read) + 4(write)
+.. [Second Digit --group] 7 -> 1 (execute) + 2 (read) + 4(write)
+.. [Third  Digit --other] 7 -> 1 (execute) + 2 (read) + 4(write)
+
