@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <dirent.h>
-#define PATH "./tmp"
+#define PATH "./"
 const int N = 0xff;
 struct files
 {
