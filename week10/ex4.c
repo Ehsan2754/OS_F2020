@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <dirent.h>
-#define PATH "./tmp"
-const int N = 0xf0;
+#define PATH "./"
+const int N = 0xff;
 struct files
 {
     int node;
     int number;
     int o;
-    char *c[0x64];
+    char *c[0xff];
 };
 int occupied = 0;
 void add_file(struct files *a, int i, char *name)
@@ -48,8 +48,8 @@ int main()
 
     DIR *dir = opendir(PATH);
     struct dirent *file = readdir(dir);
-    struct node *a[N];
-
+    struct files *a[N];
+    
     while ((file = readdir(dir)) != NULL)
     {
         insert_dir(a, file->d_ino,file->d_name);
