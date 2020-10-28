@@ -1,0 +1,4 @@
+In program #1 first string is stored in buffer so the string would be 
+printed twice when ```printf("\n")``` gets run.on the other hand the 
+string with "Hello\n" is given to the buffer and printed immediately
+before new process get started.
