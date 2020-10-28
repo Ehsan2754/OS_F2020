@@ -6,7 +6,7 @@
 #include <string.h>
 #include <unistd.h>
 #define PATH "./ex1.txt"
-#define TARGET "./ex1.memcry.txt"
+#define TARGET "./ex1.memcpy.txt"
 int main(int argc, char const *argv[])
 {
     struct stat buffer_0;
