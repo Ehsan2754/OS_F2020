@@ -1,0 +1,14 @@
+---------
+*Recovery:
+recovery is functional if it's appicable  to :
+1- kill the process or 
+2- preempt it's resources.
+ How ever we are not allowed to use it in RT-systems or batch systems.
+---------
+*Prevention:
+The best strategy if the requests from processes are given.
+Besides, the problem of planning is decidable. 
+---------
+*Avoiding is good when new requests of resources requires dynamic decisions 
+that doesn't result in deadlocks. for this method, Banker's algorithm is usually used.
+This approach is a good mean for interactive systems.
