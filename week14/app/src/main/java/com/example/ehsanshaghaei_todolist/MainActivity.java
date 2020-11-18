@@ -15,25 +15,22 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    public static ArrayList<String> taskList = new ArrayList<String>();
-    ListView taskListView = (ListView) findViewById(R.id.item_list);
-    ArrayAdapter<String> adapter = new ArrayAdapter<String>(
-            this,
-            R.layout.todo_item,
-            R.id.item_des,
-            taskList);
+    ArrayList<String> taskList;
+    ListView taskListView;
+    ArrayAdapter<String> adapter;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        taskListView = (ListView) findViewById(R.id.item_list);
-//        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
-//                this,
-//                R.layout.todo_item,
-//                R.id.item_des,
-//                taskList);
+        taskList = new ArrayList<String>();
+        taskListView = (ListView) findViewById(R.id.item_list);
+        adapter = new ArrayAdapter<String>(
+                this,
+                R.layout.todo_item,
+                R.id.item_des,
+                taskList);
         taskListView.setAdapter(adapter);
     }
 
@@ -53,8 +50,7 @@ public class MainActivity extends AppCompatActivity {
                         .setTitle(" Add New Task ")
                         .setMessage(" Enter Your Task ")
                         .setView(taskEditText)
-                        .setPositiveButton(" Add ", new DialogInterface.
-                                OnClickListener() {
+                        .setPositiveButton(" Add ", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 String task = String.valueOf(taskEditText.getText()
